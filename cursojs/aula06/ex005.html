@@ -17,11 +17,12 @@
     <h1>Iniciando estudos com DOM</h1>
     <p>Aqui vai o resultado</p>
     <p>Aprendendo a usar o <strong>DOM</strong> em javaScript</p>
-    <div>Clique em Mim</div>
+    <div id="msg">Clique em Mim</div>
 
     <script>
-        var p1 = document.getElementsByTagName('p')[0]
-        p1.style.color = 'black';
+        var p1 = document.getElementsByTagName('p')
+        var d = document.getElementById('msg')
+        
     </script>
 </body>
 </html>
